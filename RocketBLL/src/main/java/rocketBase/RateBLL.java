@@ -11,7 +11,7 @@ public class RateBLL {
 
 	private static RateDAL _RateDAL = new RateDAL();
 	
-	static double getRate(int GivenCreditScore) 
+	public static double getRate(int GivenCreditScore) 
 	{
 		//TODO - RocketBLL RateBLL.getRate - make sure you throw any exception
 		
